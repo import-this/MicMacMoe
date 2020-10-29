@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2EFAF44254B4F210053F8C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EFAF43254B4F210053F8C1 /* AppDelegate.m */; };
+		F2EFAF47254B4F210053F8C1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EFAF46254B4F210053F8C1 /* SceneDelegate.m */; };
+		F2EFAF4A254B4F210053F8C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EFAF49254B4F210053F8C1 /* ViewController.m */; };
+		F2EFAF4D254B4F210053F8C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2EFAF4B254B4F210053F8C1 /* Main.storyboard */; };
+		F2EFAF4F254B4F250053F8C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2EFAF4E254B4F250053F8C1 /* Assets.xcassets */; };
+		F2EFAF52254B4F250053F8C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2EFAF50254B4F250053F8C1 /* LaunchScreen.storyboard */; };
+		F2EFAF55254B4F250053F8C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EFAF54254B4F250053F8C1 /* main.m */; };
+		F2EFAF5F254B4F250053F8C1 /* MicMacMoeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EFAF5E254B4F250053F8C1 /* MicMacMoeTests.m */; };
+		F2EFAF6A254B4F250053F8C1 /* MicMacMoeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EFAF69254B4F250053F8C1 /* MicMacMoeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2EFAF5B254B4F250053F8C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2EFAF37254B4F210053F8C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2EFAF3E254B4F210053F8C1;
+			remoteInfo = MicMacMoe;
+		};
+		F2EFAF66254B4F250053F8C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2EFAF37254B4F210053F8C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2EFAF3E254B4F210053F8C1;
+			remoteInfo = MicMacMoe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2EFAF3F254B4F210053F8C1 /* MicMacMoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicMacMoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2EFAF42254B4F210053F8C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2EFAF43254B4F210053F8C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2EFAF45254B4F210053F8C1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F2EFAF46254B4F210053F8C1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F2EFAF48254B4F210053F8C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2EFAF49254B4F210053F8C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2EFAF4C254B4F210053F8C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2EFAF4E254B4F250053F8C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2EFAF51254B4F250053F8C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2EFAF53254B4F250053F8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2EFAF54254B4F250053F8C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2EFAF5A254B4F250053F8C1 /* MicMacMoeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicMacMoeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2EFAF5E254B4F250053F8C1 /* MicMacMoeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicMacMoeTests.m; sourceTree = "<group>"; };
+		F2EFAF60254B4F250053F8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2EFAF65254B4F250053F8C1 /* MicMacMoeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicMacMoeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2EFAF69254B4F250053F8C1 /* MicMacMoeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicMacMoeUITests.m; sourceTree = "<group>"; };
+		F2EFAF6B254B4F250053F8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2EFAF3C254B4F210053F8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EFAF57254B4F250053F8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EFAF62254B4F250053F8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2EFAF36254B4F210053F8C1 = {
+			isa = PBXGroup;
+			children = (
+				F2EFAF41254B4F210053F8C1 /* MicMacMoe */,
+				F2EFAF5D254B4F250053F8C1 /* MicMacMoeTests */,
+				F2EFAF68254B4F250053F8C1 /* MicMacMoeUITests */,
+				F2EFAF40254B4F210053F8C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2EFAF40254B4F210053F8C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2EFAF3F254B4F210053F8C1 /* MicMacMoe.app */,
+				F2EFAF5A254B4F250053F8C1 /* MicMacMoeTests.xctest */,
+				F2EFAF65254B4F250053F8C1 /* MicMacMoeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2EFAF41254B4F210053F8C1 /* MicMacMoe */ = {
+			isa = PBXGroup;
+			children = (
+				F2EFAF42254B4F210053F8C1 /* AppDelegate.h */,
+				F2EFAF43254B4F210053F8C1 /* AppDelegate.m */,
+				F2EFAF45254B4F210053F8C1 /* SceneDelegate.h */,
+				F2EFAF46254B4F210053F8C1 /* SceneDelegate.m */,
+				F2EFAF48254B4F210053F8C1 /* ViewController.h */,
+				F2EFAF49254B4F210053F8C1 /* ViewController.m */,
+				F2EFAF4B254B4F210053F8C1 /* Main.storyboard */,
+				F2EFAF4E254B4F250053F8C1 /* Assets.xcassets */,
+				F2EFAF50254B4F250053F8C1 /* LaunchScreen.storyboard */,
+				F2EFAF53254B4F250053F8C1 /* Info.plist */,
+				F2EFAF54254B4F250053F8C1 /* main.m */,
+			);
+			path = MicMacMoe;
+			sourceTree = "<group>";
+		};
+		F2EFAF5D254B4F250053F8C1 /* MicMacMoeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2EFAF5E254B4F250053F8C1 /* MicMacMoeTests.m */,
+				F2EFAF60254B4F250053F8C1 /* Info.plist */,
+			);
+			path = MicMacMoeTests;
+			sourceTree = "<group>";
+		};
+		F2EFAF68254B4F250053F8C1 /* MicMacMoeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2EFAF69254B4F250053F8C1 /* MicMacMoeUITests.m */,
+				F2EFAF6B254B4F250053F8C1 /* Info.plist */,
+			);
+			path = MicMacMoeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2EFAF3E254B4F210053F8C1 /* MicMacMoe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2EFAF6E254B4F250053F8C1 /* Build configuration list for PBXNativeTarget "MicMacMoe" */;
+			buildPhases = (
+				F2EFAF3B254B4F210053F8C1 /* Sources */,
+				F2EFAF3C254B4F210053F8C1 /* Frameworks */,
+				F2EFAF3D254B4F210053F8C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicMacMoe;
+			productName = MicMacMoe;
+			productReference = F2EFAF3F254B4F210053F8C1 /* MicMacMoe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2EFAF59254B4F250053F8C1 /* MicMacMoeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2EFAF71254B4F250053F8C1 /* Build configuration list for PBXNativeTarget "MicMacMoeTests" */;
+			buildPhases = (
+				F2EFAF56254B4F250053F8C1 /* Sources */,
+				F2EFAF57254B4F250053F8C1 /* Frameworks */,
+				F2EFAF58254B4F250053F8C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2EFAF5C254B4F250053F8C1 /* PBXTargetDependency */,
+			);
+			name = MicMacMoeTests;
+			productName = MicMacMoeTests;
+			productReference = F2EFAF5A254B4F250053F8C1 /* MicMacMoeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2EFAF64254B4F250053F8C1 /* MicMacMoeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2EFAF74254B4F250053F8C1 /* Build configuration list for PBXNativeTarget "MicMacMoeUITests" */;
+			buildPhases = (
+				F2EFAF61254B4F250053F8C1 /* Sources */,
+				F2EFAF62254B4F250053F8C1 /* Frameworks */,
+				F2EFAF63254B4F250053F8C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2EFAF67254B4F250053F8C1 /* PBXTargetDependency */,
+			);
+			name = MicMacMoeUITests;
+			productName = MicMacMoeUITests;
+			productReference = F2EFAF65254B4F250053F8C1 /* MicMacMoeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2EFAF37254B4F210053F8C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Poulimenos, Vasileios, Vodafone Greece";
+				TargetAttributes = {
+					F2EFAF3E254B4F210053F8C1 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					F2EFAF59254B4F250053F8C1 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F2EFAF3E254B4F210053F8C1;
+					};
+					F2EFAF64254B4F250053F8C1 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F2EFAF3E254B4F210053F8C1;
+					};
+				};
+			};
+			buildConfigurationList = F2EFAF3A254B4F210053F8C1 /* Build configuration list for PBXProject "MicMacMoe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2EFAF36254B4F210053F8C1;
+			productRefGroup = F2EFAF40254B4F210053F8C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2EFAF3E254B4F210053F8C1 /* MicMacMoe */,
+				F2EFAF59254B4F250053F8C1 /* MicMacMoeTests */,
+				F2EFAF64254B4F250053F8C1 /* MicMacMoeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2EFAF3D254B4F210053F8C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EFAF52254B4F250053F8C1 /* LaunchScreen.storyboard in Resources */,
+				F2EFAF4F254B4F250053F8C1 /* Assets.xcassets in Resources */,
+				F2EFAF4D254B4F210053F8C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EFAF58254B4F250053F8C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EFAF63254B4F250053F8C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2EFAF3B254B4F210053F8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EFAF4A254B4F210053F8C1 /* ViewController.m in Sources */,
+				F2EFAF44254B4F210053F8C1 /* AppDelegate.m in Sources */,
+				F2EFAF55254B4F250053F8C1 /* main.m in Sources */,
+				F2EFAF47254B4F210053F8C1 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EFAF56254B4F250053F8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EFAF5F254B4F250053F8C1 /* MicMacMoeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EFAF61254B4F250053F8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EFAF6A254B4F250053F8C1 /* MicMacMoeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2EFAF5C254B4F250053F8C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2EFAF3E254B4F210053F8C1 /* MicMacMoe */;
+			targetProxy = F2EFAF5B254B4F250053F8C1 /* PBXContainerItemProxy */;
+		};
+		F2EFAF67254B4F250053F8C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2EFAF3E254B4F210053F8C1 /* MicMacMoe */;
+			targetProxy = F2EFAF66254B4F250053F8C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2EFAF4B254B4F210053F8C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2EFAF4C254B4F210053F8C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2EFAF50254B4F250053F8C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2EFAF51254B4F250053F8C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2EFAF6C254B4F250053F8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2EFAF6D254B4F250053F8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2EFAF6F254B4F250053F8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MicMacMoe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.MicMacMoe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2EFAF70254B4F250053F8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MicMacMoe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.MicMacMoe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F2EFAF72254B4F250053F8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MicMacMoeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.MicMacMoeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicMacMoe.app/MicMacMoe";
+			};
+			name = Debug;
+		};
+		F2EFAF73254B4F250053F8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MicMacMoeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.MicMacMoeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicMacMoe.app/MicMacMoe";
+			};
+			name = Release;
+		};
+		F2EFAF75254B4F250053F8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MicMacMoeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.MicMacMoeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MicMacMoe;
+			};
+			name = Debug;
+		};
+		F2EFAF76254B4F250053F8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MicMacMoeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.MicMacMoeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MicMacMoe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2EFAF3A254B4F210053F8C1 /* Build configuration list for PBXProject "MicMacMoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2EFAF6C254B4F250053F8C1 /* Debug */,
+				F2EFAF6D254B4F250053F8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2EFAF6E254B4F250053F8C1 /* Build configuration list for PBXNativeTarget "MicMacMoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2EFAF6F254B4F250053F8C1 /* Debug */,
+				F2EFAF70254B4F250053F8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2EFAF71254B4F250053F8C1 /* Build configuration list for PBXNativeTarget "MicMacMoeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2EFAF72254B4F250053F8C1 /* Debug */,
+				F2EFAF73254B4F250053F8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2EFAF74254B4F250053F8C1 /* Build configuration list for PBXNativeTarget "MicMacMoeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2EFAF75254B4F250053F8C1 /* Debug */,
+				F2EFAF76254B4F250053F8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2EFAF37254B4F210053F8C1 /* Project object */;
+}
