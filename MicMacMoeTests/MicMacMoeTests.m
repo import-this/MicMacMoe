@@ -3,7 +3,6 @@
 //  MicMacMoeTests
 //
 //  Created by Poulimenos, Vasileios, Vodafone Greece on 29/10/20.
-//  Copyright © 2020 Poulimenos, Vasileios, Vodafone Greece. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

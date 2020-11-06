@@ -3,19 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F261C748254EFF840040FCE6 /* TicTacToeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F261C747254EFF840040FCE6 /* TicTacToeCollectionViewCell.m */; };
+		F261C750254F08B70040FCE6 /* UICollectionView+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = F261C74F254F08B70040FCE6 /* UICollectionView+Helpers.m */; };
+		F261C754254F1F4E0040FCE6 /* CALayer+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = F261C753254F1F4E0040FCE6 /* CALayer+Shadow.m */; };
+		F261C757254F35A40040FCE6 /* CALayer+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = F261C756254F35A40040FCE6 /* CALayer+Border.m */; };
+		F26528DA254DB5D600F5151D /* TicTacToeGame.m in Sources */ = {isa = PBXBuildFile; fileRef = F26528D9254DB5D600F5151D /* TicTacToeGame.m */; };
+		F29DF18D255381AE007D5BE6 /* GameplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F29DF18C255381AE007D5BE6 /* GameplayKit.framework */; };
+		F2D56246254CB55800D20F0F /* Minimax.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D56245254CB55800D20F0F /* Minimax.m */; };
+		F2D56249254CB65200D20F0F /* TicTacToe.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D56248254CB65200D20F0F /* TicTacToe.m */; };
+		F2D56254254D031500D20F0F /* Move.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D56253254D031500D20F0F /* Move.m */; };
+		F2D56256254D946200D20F0F /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D56255254D946200D20F0F /* Score.m */; };
 		F2EFAF44254B4F210053F8C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EFAF43254B4F210053F8C1 /* AppDelegate.m */; };
-		F2EFAF47254B4F210053F8C1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EFAF46254B4F210053F8C1 /* SceneDelegate.m */; };
-		F2EFAF4A254B4F210053F8C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EFAF49254B4F210053F8C1 /* ViewController.m */; };
+		F2EFAF4A254B4F210053F8C1 /* TicTacToeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EFAF49254B4F210053F8C1 /* TicTacToeViewController.m */; };
 		F2EFAF4D254B4F210053F8C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2EFAF4B254B4F210053F8C1 /* Main.storyboard */; };
 		F2EFAF4F254B4F250053F8C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2EFAF4E254B4F250053F8C1 /* Assets.xcassets */; };
 		F2EFAF52254B4F250053F8C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2EFAF50254B4F250053F8C1 /* LaunchScreen.storyboard */; };
 		F2EFAF55254B4F250053F8C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EFAF54254B4F250053F8C1 /* main.m */; };
 		F2EFAF5F254B4F250053F8C1 /* MicMacMoeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EFAF5E254B4F250053F8C1 /* MicMacMoeTests.m */; };
 		F2EFAF6A254B4F250053F8C1 /* MicMacMoeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EFAF69254B4F250053F8C1 /* MicMacMoeUITests.m */; };
+		F2F505FB2550866C00D6B569 /* Random.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F505FA2550866C00D6B569 /* Random.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +46,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F261C746254EFF840040FCE6 /* TicTacToeCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicTacToeCollectionViewCell.h; sourceTree = "<group>"; };
+		F261C747254EFF840040FCE6 /* TicTacToeCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicTacToeCollectionViewCell.m; sourceTree = "<group>"; };
+		F261C74E254F08B70040FCE6 /* UICollectionView+Helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+Helpers.h"; sourceTree = "<group>"; };
+		F261C74F254F08B70040FCE6 /* UICollectionView+Helpers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+Helpers.m"; sourceTree = "<group>"; };
+		F261C752254F1F4E0040FCE6 /* CALayer+Shadow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+Shadow.h"; sourceTree = "<group>"; };
+		F261C753254F1F4E0040FCE6 /* CALayer+Shadow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Shadow.m"; sourceTree = "<group>"; };
+		F261C755254F35A40040FCE6 /* CALayer+Border.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+Border.h"; sourceTree = "<group>"; };
+		F261C756254F35A40040FCE6 /* CALayer+Border.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Border.m"; sourceTree = "<group>"; };
+		F26528D7254DB33700F5151D /* Difficulty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Difficulty.h; sourceTree = "<group>"; };
+		F26528D8254DB36B00F5151D /* TicTacToeGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicTacToeGame.h; sourceTree = "<group>"; };
+		F26528D9254DB5D600F5151D /* TicTacToeGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicTacToeGame.m; sourceTree = "<group>"; };
+		F26528DB254DB75900F5151D /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		F29DF172255228E1007D5BE6 /* Score.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		F29DF18C255381AE007D5BE6 /* GameplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameplayKit.framework; path = System/Library/Frameworks/GameplayKit.framework; sourceTree = SDKROOT; };
+		F2D56245254CB55800D20F0F /* Minimax.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Minimax.m; sourceTree = "<group>"; };
+		F2D56247254CB63E00D20F0F /* TicTacToe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicTacToe.h; sourceTree = "<group>"; };
+		F2D56248254CB65200D20F0F /* TicTacToe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicTacToe.m; sourceTree = "<group>"; };
+		F2D56250254CBB4700D20F0F /* Minimax.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Minimax.h; sourceTree = "<group>"; };
+		F2D56251254CCBFB00D20F0F /* Move.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Move.h; sourceTree = "<group>"; };
+		F2D56252254CE31400D20F0F /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		F2D56253254D031500D20F0F /* Move.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Move.m; sourceTree = "<group>"; };
+		F2D56255254D946200D20F0F /* Score.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
 		F2EFAF3F254B4F210053F8C1 /* MicMacMoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicMacMoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2EFAF42254B4F210053F8C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2EFAF43254B4F210053F8C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F2EFAF45254B4F210053F8C1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		F2EFAF46254B4F210053F8C1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		F2EFAF48254B4F210053F8C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F2EFAF49254B4F210053F8C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2EFAF48254B4F210053F8C1 /* TicTacToeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicTacToeViewController.h; sourceTree = "<group>"; };
+		F2EFAF49254B4F210053F8C1 /* TicTacToeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicTacToeViewController.m; sourceTree = "<group>"; };
 		F2EFAF4C254B4F210053F8C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2EFAF4E254B4F250053F8C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2EFAF51254B4F250053F8C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +84,8 @@
 		F2EFAF65254B4F250053F8C1 /* MicMacMoeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicMacMoeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2EFAF69254B4F250053F8C1 /* MicMacMoeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicMacMoeUITests.m; sourceTree = "<group>"; };
 		F2EFAF6B254B4F250053F8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2F505FA2550866C00D6B569 /* Random.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Random.m; sourceTree = "<group>"; };
+		F2F505FC2550867900D6B569 /* Random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Random.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F29DF18D255381AE007D5BE6 /* GameplayKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +114,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F261C749254EFF8D0040FCE6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F261C746254EFF840040FCE6 /* TicTacToeCollectionViewCell.h */,
+				F261C747254EFF840040FCE6 /* TicTacToeCollectionViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F261C74D254F08720040FCE6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F261C751254F1F300040FCE6 /* Categories */,
+				F2F505FA2550866C00D6B569 /* Random.m */,
+				F2F505FC2550867900D6B569 /* Random.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F261C751254F1F300040FCE6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F261C755254F35A40040FCE6 /* CALayer+Border.h */,
+				F261C756254F35A40040FCE6 /* CALayer+Border.m */,
+				F261C752254F1F4E0040FCE6 /* CALayer+Shadow.h */,
+				F261C753254F1F4E0040FCE6 /* CALayer+Shadow.m */,
+				F261C74E254F08B70040FCE6 /* UICollectionView+Helpers.h */,
+				F261C74F254F08B70040FCE6 /* UICollectionView+Helpers.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		F29DF18B255381AE007D5BE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F29DF18C255381AE007D5BE6 /* GameplayKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2D56241254CB50900D20F0F /* GameEngine */ = {
+			isa = PBXGroup;
+			children = (
+				F2D56244254CB54100D20F0F /* AI */,
+				F26528DB254DB75900F5151D /* Player.h */,
+				F2D56251254CCBFB00D20F0F /* Move.h */,
+				F2D56253254D031500D20F0F /* Move.m */,
+				F2D56247254CB63E00D20F0F /* TicTacToe.h */,
+				F2D56248254CB65200D20F0F /* TicTacToe.m */,
+			);
+			path = GameEngine;
+			sourceTree = "<group>";
+		};
+		F2D56242254CB51B00D20F0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F29DF172255228E1007D5BE6 /* Score.h */,
+				F2D56255254D946200D20F0F /* Score.m */,
+				F26528D7254DB33700F5151D /* Difficulty.h */,
+				F26528D8254DB36B00F5151D /* TicTacToeGame.h */,
+				F26528D9254DB5D600F5151D /* TicTacToeGame.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2D56243254CB52A00D20F0F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F261C749254EFF8D0040FCE6 /* Cells */,
+				F2EFAF48254B4F210053F8C1 /* TicTacToeViewController.h */,
+				F2EFAF49254B4F210053F8C1 /* TicTacToeViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2D56244254CB54100D20F0F /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				F2D56252254CE31400D20F0F /* Game.h */,
+				F2D56250254CBB4700D20F0F /* Minimax.h */,
+				F2D56245254CB55800D20F0F /* Minimax.m */,
+			);
+			path = AI;
+			sourceTree = "<group>";
+		};
 		F2EFAF36254B4F210053F8C1 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +206,7 @@
 				F2EFAF5D254B4F250053F8C1 /* MicMacMoeTests */,
 				F2EFAF68254B4F250053F8C1 /* MicMacMoeUITests */,
 				F2EFAF40254B4F210053F8C1 /* Products */,
+				F29DF18B255381AE007D5BE6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +223,12 @@
 		F2EFAF41254B4F210053F8C1 /* MicMacMoe */ = {
 			isa = PBXGroup;
 			children = (
+				F261C74D254F08720040FCE6 /* Utils */,
+				F2D56241254CB50900D20F0F /* GameEngine */,
+				F2D56242254CB51B00D20F0F /* Model */,
+				F2D56243254CB52A00D20F0F /* View */,
 				F2EFAF42254B4F210053F8C1 /* AppDelegate.h */,
 				F2EFAF43254B4F210053F8C1 /* AppDelegate.m */,
-				F2EFAF45254B4F210053F8C1 /* SceneDelegate.h */,
-				F2EFAF46254B4F210053F8C1 /* SceneDelegate.m */,
-				F2EFAF48254B4F210053F8C1 /* ViewController.h */,
-				F2EFAF49254B4F210053F8C1 /* ViewController.m */,
 				F2EFAF4B254B4F210053F8C1 /* Main.storyboard */,
 				F2EFAF4E254B4F250053F8C1 /* Assets.xcassets */,
 				F2EFAF50254B4F250053F8C1 /* LaunchScreen.storyboard */,
@@ -200,7 +319,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1150;
-				ORGANIZATIONNAME = "Poulimenos, Vasileios, Vodafone Greece";
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					F2EFAF3E254B4F210053F8C1 = {
 						CreatedOnToolsVersion = 11.5;
@@ -216,7 +335,7 @@
 				};
 			};
 			buildConfigurationList = F2EFAF3A254B4F210053F8C1 /* Build configuration list for PBXProject "MicMacMoe" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -267,10 +386,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2EFAF4A254B4F210053F8C1 /* ViewController.m in Sources */,
+				F2EFAF4A254B4F210053F8C1 /* TicTacToeViewController.m in Sources */,
 				F2EFAF44254B4F210053F8C1 /* AppDelegate.m in Sources */,
 				F2EFAF55254B4F250053F8C1 /* main.m in Sources */,
-				F2EFAF47254B4F210053F8C1 /* SceneDelegate.m in Sources */,
+				F261C748254EFF840040FCE6 /* TicTacToeCollectionViewCell.m in Sources */,
+				F2F505FB2550866C00D6B569 /* Random.m in Sources */,
+				F261C754254F1F4E0040FCE6 /* CALayer+Shadow.m in Sources */,
+				F26528DA254DB5D600F5151D /* TicTacToeGame.m in Sources */,
+				F261C750254F08B70040FCE6 /* UICollectionView+Helpers.m in Sources */,
+				F2D56246254CB55800D20F0F /* Minimax.m in Sources */,
+				F2D56256254D946200D20F0F /* Score.m in Sources */,
+				F261C757254F35A40040FCE6 /* CALayer+Border.m in Sources */,
+				F2D56254254D031500D20F0F /* Move.m in Sources */,
+				F2D56249254CB65200D20F0F /* TicTacToe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +569,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MicMacMoe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +586,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MicMacMoe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
